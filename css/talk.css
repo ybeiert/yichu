@@ -1,0 +1,172 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  flex-shrink: 0;
+}
+header > .top {
+  background: linear-gradient(#1e9093, #36f0be);
+  /* padding: 1.32rem 0.3rem 0 0.3rem; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 1.5rem;
+}
+header > .top > span {
+  text-align: center;
+  color: #00775d;
+  font-size: 0.26rem;
+  line-height: 0.38rem;
+}
+header > .top > span > span {
+  display: block;
+  font-size: 0.14rem;
+}
+header > .top > .active {
+  color: #fff;
+}
+header > .banner {
+  position: relative;
+}
+header > .banner img {
+  display: block;
+  width: 100%;
+}
+header > .banner .swiper-pagination-bullet-active {
+  background-color: #079e7d;
+}
+header > .banner > .advertisement {
+  position: absolute;
+  top: 20%;
+  right: 1%;
+  font-size: 0.18rem;
+  color: #fff;
+  background-color: #e0e1e3;
+  width: 0.7rem;
+  line-height: 0.4rem;
+  z-index: 2;
+  text-align: center;
+}
+header > .banner > .extension {
+  position: absolute;
+  top: 80%;
+  right: 0;
+  font-size: 0.18rem;
+  color: #fff;
+  background-color: #1ccda6;
+  width: 0.84rem;
+  line-height: 0.4rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+  z-index: 2;
+  text-align: center;
+}
+section {
+  background-color: #f8f8f8;
+  flex-grow: 1;
+  overflow: auto;
+}
+section > .recommend > ul > li {
+  padding: 0.48rem 0.3rem 0.24rem 0.3rem;
+  margin-top: 0.18rem;
+  background-color: #fff;
+}
+section > .recommend > ul > li > div > img {
+  display: block;
+  width: 0.42rem;
+  float: left;
+  margin-right: 0.14rem;
+}
+section > .recommend > ul > li > div > span {
+  display: block;
+  float: left;
+  font-size: 0.28rem;
+  color: #009c7a;
+  line-height: 0.63rem;
+}
+section > .recommend > ul > li > div > span.gray {
+  color: #838282;
+}
+section > .recommend > ul > li > h5 {
+  font-size: 0.32rem;
+  color: #323232;
+  line-height: 0.58rem;
+  font-weight: 700;
+  margin-bottom: 0.32rem;
+}
+section > .recommend > ul > li > p {
+  font-size: 0.28rem;
+  color: #6d6b6b;
+  line-height: 0.44rem;
+  margin-bottom: 0.3rem;
+}
+section > .recommend > ul > li > div > div > span {
+  display: block;
+  float: left;
+  font-size: 0.2rem;
+  color: #828282;
+}
+section > .recommend > ul > li > div > .mid-left {
+  float: left;
+}
+section > .recommend > ul > li > div > .mid-left > .riqi {
+  margin-right: 0.06rem;
+}
+section > .recommend > ul > li > div > .mid-right {
+  float: right;
+}
+section > .recommend > ul > li > div > .mid-right > span {
+  margin-left: 0.3rem;
+}
+section > .recommend > ul > li > div > .mid-right > span > i.iconfont {
+  font-size: 0.2rem;
+  margin-right: 0.06rem;
+}
+section > .round {
+  color: #eee;
+  display: none;
+}
+section > .round > ul {
+  margin-top: 0.22rem;
+  padding: 0 0.22rem;
+  /* box-sizing: border-box; */
+}
+section > .round > ul li {
+  margin-bottom: 0.22rem;
+  padding: 0.2rem;
+  border: 1px solid #efeded;
+  border-radius: 0.1rem;
+  background-color: #fff;
+}
+section > .round > ul li > img {
+  display: block;
+  width: 0.9rem;
+  margin-right: 0.25rem;
+  float: left;
+}
+section > .round > ul li > h5 {
+  float: left;
+  font-size: 0.34rem;
+  color: #626262;
+  line-height: 0.44rem;
+  margin-top: 0.05rem;
+  width: 4.7rem;
+  overflow: hidden;
+}
+section > .round > ul li > h5 > span {
+  font-size: 0.24rem;
+  color: #918f8f;
+  display: block;
+}
+section > .round > ul li > span.right {
+  float: right;
+  color: #afd8d0;
+  font-size: 0.3rem;
+  line-height: 0.9rem;
+}

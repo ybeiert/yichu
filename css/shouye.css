@@ -1,0 +1,142 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+}
+header {
+  flex-shrink: 0;
+  /* padding-top: 1.32rem; */
+}
+header > div.top {
+  background: linear-gradient(#1e9093, #36f0be);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.24rem 0.3rem 0 0.3rem;
+}
+header > div.top > span {
+  color: #fff;
+  font-size: 0.3rem;
+  line-height: 1rem;
+}
+header > div.top > a.fa {
+  font-size: 0.26rem;
+  line-height: 1rem;
+  color: #009c7a;
+}
+header > div.top > a.iconfont {
+  color: #fff;
+  font-size: 0.3rem;
+  line-height: 1rem;
+}
+header > div.top > a > img {
+  width: 0.48rem;
+  height: 0.48rem;
+  display: block;
+  margin-top: 0.26rem;
+}
+header > div.banner > img {
+  width: 100%;
+}
+section {
+  flex-grow: 1;
+  overflow: auto;
+  background-color: #f8f8f8;
+}
+section .mid-inner {
+  background-color: #fff;
+  padding: 0.26rem 0.24rem 0.14rem 0.24rem;
+}
+.active {
+  color: #009c7a;
+}
+section .daohang {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.42rem 0.65rem;
+  border: 1px solid #eee;
+  border-radius: 0.05rem;
+  box-shadow: 0px 5px 5px 0px #eee inset;
+}
+section .daohang > a {
+  color: #9e9e9e;
+}
+section .daohang span {
+  display: block;
+  float: left;
+  font-size: 0.34rem;
+}
+section .content {
+  padding: 0.3rem 0.24rem 0 0.24rem;
+  margin-bottom: 0.18rem;
+  background-color: #fff;
+}
+section .content .title {
+  margin-bottom: 0.5rem;
+}
+section .content .title h5 {
+  float: left;
+  font-size: 0.18rem;
+  color: #28b9ac;
+  line-height: 0.32rem;
+  border-left: 2px solid #28b9ac;
+  padding-left: 0.06rem;
+}
+section .content .title span {
+  display: block;
+  float: right;
+  font-size: 0.22rem;
+  line-height: 0.52rem;
+}
+section .content .title span > img {
+  display: block;
+  float: right;
+  width: 0.52rem;
+  margin-left: 0.06rem;
+}
+
+section .content .word div {
+  width: 3.5rem;
+  padding: 0 0.18rem;
+  float: left;
+}
+section .content .word div h3 {
+  font-size: 0.36rem;
+  line-height: 0.44rem;
+  color: #202020;
+}
+section .content .word div p {
+  font-size: 0.3rem;
+  line-height: 0.46rem;
+  color: #6b6b6b;
+}
+section .content .word img {
+  display: block;
+  float: right;
+  width: 3rem;
+}
+section .content .bot .mid-left {
+  float: left;
+}
+section .content .bot .mid-right {
+  float: right;
+}
+section .content .bot span {
+  font-size: 0.2rem;
+  color: #828282;
+}
+section .content .bot .mid-left > .riqi {
+  margin-right: 0.06rem;
+}
+
+section .content .bot .mid-right > span {
+  margin-left: 0.3rem;
+}
+section .content .bot .mid-right > span > i.iconfont {
+  font-size: 0.2rem;
+  margin-right: 0.06rem;
+}

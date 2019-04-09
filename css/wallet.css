@@ -1,0 +1,88 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+section {
+  padding-top: 1.32rem;
+  flex-grow: 1;
+  overflow: auto;
+}
+section > img {
+  display: block;
+  width: 1.64rem;
+  margin: 0 auto;
+}
+section > .price {
+  width: 3.6rem;
+  margin: 0 auto;
+  margin-top: 0.44rem;
+  margin-bottom: 0.66rem;
+}
+section > .price > span {
+  display: block;
+  float: left;
+  color: #ffd900;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1rem;
+}
+section > .price > span.money {
+  font-size: 0.32rem;
+  line-height: 1.5rem;
+}
+section > .recharge,
+section > .cash {
+  display: block;
+  text-align: center;
+  background-color: #35eecc;
+  color: #fff;
+  font-size: 0.4rem;
+  line-height: 1.16rem;
+}
+section > .cash {
+  background-color: #fefff7;
+  color: #bcbdb8;
+}
+section > .recharge > i.fa,
+section > .cash > i.fa {
+  padding-right: 0.18rem;
+}
+section > p {
+  background-color: #f5f5f5;
+  padding-top: 0.48rem;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #a1a1a1;
+  line-height: 0.3rem;
+  padding-bottom: 3.2rem;
+}
+section > p > span {
+  display: block;
+}
+footer {
+  background-color: #f5f5f5;
+  padding: 0 1.2rem 0 1.2rem;
+  flex-shrink: 0;
+}
+footer > p {
+  text-align: center;
+  font-size: 0.2rem;
+  color: #d2d2d2;
+  line-height: 0.5rem;
+}
+footer > p > span.left {
+  padding-right: 0.68rem;
+  border-right: 0.01rem solid #a1a1a1;
+}
+
+footer > p > span.right {
+  padding-left: 0.68rem;
+}

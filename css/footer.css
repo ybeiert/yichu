@@ -1,0 +1,22 @@
+footer {
+  background-color: #fff;
+  flex-shrink: 0;
+}
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.16rem 0.52rem;
+}
+footer > div > a {
+  display: block;
+  float: left;
+  width: 0.38rem;
+}
+footer > div > a.center {
+  width: 0.7rem;
+}
+footer > div > a > img {
+  display: block;
+  float: left;
+  width: 100%;
+}

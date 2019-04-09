@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/chushihua.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/wallet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+    <script>
+      // https://www.cnblogs.com/well-nice/p/5509589.html
+      // 动态修改 html 的 font-size 屏幕的宽度/奢极高的尺寸/100
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + 'px'
+      // 给行元素设置font-size 小于 1rem 时,会出现 bug,将行转化为块
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div>
+          <a href="./user.html" class="fa fa-chevron-left"></a>
+          <span>钱包</span>
+          <span class="more">明细</span>
+        </div>
+      </header>
+      <section>
+        <img src="./images/wallet_03.png" alt="" />
+        <div class="price clearfix">
+          <span>￥</span>
+          <span>0.00</span>
+          <span class="money">元</span>
+        </div>
+        <a href="" class="recharge"
+          ><i class="fa fa-jpy" aria-hidden="true"></i>充值</a
+        >
+        <a href="" class="cash"
+          ><i class="fa fa-jpy" aria-hidden="true"></i>提现</a
+        >
+        <p>
+          零钱可以用于用户用户间收听回答购买实体商品。
+          <span>在使用过程层中，一处不会收取任何费用</span>
+        </p>
+      </section>
+      <footer>
+        <p>
+          <span class="left">红包活动</span><span class="right">常见问题</span>
+        </p>
+
+        <p>本服务由财付通提供底层技术支持</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+  background: linear-gradient(#54a3a7, #b7c8a8);
+}
+.search,
+.anniu {
+  padding: 0.5rem 0.24rem 0 0.24rem;
+}
+.search {
+  position: relative;
+}
+.search .sousuo {
+  position: absolute;
+  font-size: 0.3rem;
+  line-height: 0.58rem;
+  /* margin-top: -0.29rem; */
+  top: 50%;
+  left: 0.42rem;
+}
+.search #text {
+  display: block;
+  float: left;
+  line-height: 0.58rem;
+  font-size: 0.3rem;
+  border: 0;
+  outline: none;
+  padding-left: 0.66rem;
+  width: 5.29rem;
+  border-radius: 0.08rem;
+  margin-right: 0.22rem;
+  background-color: #ececec;
+}
+.search #text::-webkit-input-placeholder {
+  color: #9e9e9e;
+}
+.search .in-button {
+  display: block;
+  float: left;
+  line-height: 0.58rem;
+  font-size: 0.3rem;
+  width: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.anniu {
+  padding-top: 0.2rem;
+}
+.anniu span {
+  display: block;
+  float: left;
+  width: 3.45rem;
+  line-height: 0.75rem;
+  font-size: 0.28rem;
+  text-align: center;
+  border-radius: 0.1rem;
+}
+.anniu span.an-left {
+  float: left;
+  color: #fff;
+  background-color: #35efca;
+}
+.anniu span.an-right {
+  float: right;
+  color: #9e9e9e;
+  background-color: #f7fbfa;
+}
+.wrap > span {
+  font-size: 0.3rem;
+  line-height: 0.98rem;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding-left: 0.44rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.wrap > span > i {
+  margin-right: 0.36rem;
+}

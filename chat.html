@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/chushihua.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/chat.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+    <script>
+      // https://www.cnblogs.com/well-nice/p/5509589.html
+      // 动态修改 html 的 font-size 屏幕的宽度/奢极高的尺寸/100
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + 'px'
+      // 给行元素设置font-size 小于 1rem 时,会出现 bug,将行转化为块
+    </script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header>
+        <div>
+          <a href="./news.html" class="fa fa-chevron-left"></a>
+          <span>yaourtniyun</span>
+          <span class="iconfont icon-more"></span>
+        </div>
+      </header>
+      <section>
+        <div class="time">32分钟前</div>
+        <div class="mid-left clearfix">
+          <img src="./images/1_03.png" alt="" />
+          <p>
+            我喜欢了一姑娘4年 他现在有对象我应不应该打破她现有的平稳生活去追求她
+          </p>
+        </div>
+        <div class="time">刚刚</div>
+        <div class="mid-right clearfix">
+          <img src="./images/_05.png" alt="" />
+          <p>
+            我喜欢了一姑娘4年 他现在有对象我应不应该打破她现有的平稳生活去追求她
+          </p>
+        </div>
+        <div class="mid-right clearfix">
+          <img src="./images/_05.png" alt="" />
+          <p>
+            如今，您凭什么认为，你的追求，能足以（打破她现有的平静生活）？
+          </p>
+        </div>
+      </section>
+      <footer>
+        <div>
+          <span class="fa fa-plus-circle"></span>
+          <span class="fa fa-smile-o"></span>
+        </div>
+        <input type="text" placeholder="新信息" />
+        <label for="">发送</label>
+      </footer>
+    </div>
+    <script src="./js/zepto.js"></script>
+    <script src="./js/touch.js"></script>
+    <script>
+      $('.title .answer').tap(function() {
+        $(this)
+          .children('.line')
+          .removeClass('none')
+        $('.title .hot')
+          .children('.line')
+          .addClass('none')
+        $('.a-pinglun').removeClass('hot2')
+        $('.h-pinglun').addClass('hot2')
+      })
+      $('.title .hot').tap(function() {
+        $(this)
+          .children('.line')
+          .removeClass('none')
+        $('.title .answer')
+          .children('.line')
+          .addClass('none')
+        $('.a-pinglun').addClass('hot2')
+        $('.h-pinglun').removeClass('hot2')
+      })
+      $('section .right').tap(function() {
+        $(this).toggleClass('active')
+      })
+    </script>
+  </body>
+</html>

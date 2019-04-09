@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/chushihua.css" />
+    <link rel="stylesheet" href="./css/gushi.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+    <script>
+      // https://www.cnblogs.com/well-nice/p/5509589.html
+      // 动态修改 html 的 font-size 屏幕的宽度/奢极高的尺寸/100
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + 'px'
+      // 给行元素设置font-size 小于 1rem 时,会出现 bug,将行转化为块
+    </script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="top clearfix">
+          <a href="./shouye.html" class="fa fa-angle-left"> </a>
+          <span>文章</span>
+        </div>
+      </header>
+      <section>
+        <div class="mid-top">
+          <span class="active">推荐</span>
+          <span>分类</span>
+        </div>
+        <div class="content">
+          <div>
+            <div class="title clearfix">
+              <h5>良品</h5>
+              <span>HWZWSWSWWS<img src="./images/u15123_05.jpg" alt=""/></span>
+            </div>
+            <div class="word clearfix">
+              <div>
+                <h3>有点主见不好吗？</h3>
+                <p>
+                  “有几次我都想对他们说：滚！我不 需要他们，每次找了他们之后，我
+                </p>
+              </div>
+              <img src="./images/diantai_05.jpg" alt="" />
+            </div>
+            <div class="clearfix bot">
+              <div class="mid-left">
+                <span class="riqi">05-20</span
+                ><span class="shijian">20：56</span>
+              </div>
+              <div class="mid-right">
+                <span><i class="iconfont icon-eye"></i>1.8K</span>
+                <span><i class="iconfont icon-heart"></i>112</span>
+                <span><i class="iconfont icon-pinglun"></i>7</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div>
+            <div class="title clearfix">
+              <h5>最新发声</h5>
+              <span>HWZWSWSWWS<img src="./images/u15123_05.jpg" alt=""/></span>
+            </div>
+            <div class="word clearfix">
+              <div>
+                <h3>乍见之欢 久处不厌</h3>
+                <p>
+                  我忽然在想，身边什么人会让人有 这样的感觉，处于一种恰恰欢喜舒
+                </p>
+              </div>
+              <img src="./images/diantai_05.jpg" alt="" />
+            </div>
+            <div class="clearfix bot">
+              <div class="mid-left">
+                <span class="riqi">05-20</span
+                ><span class="shijian">20：56</span>
+              </div>
+              <div class="mid-right">
+                <span><i class="iconfont icon-eye"></i>1.8K</span>
+                <span><i class="iconfont icon-heart"></i>112</span>
+                <span><i class="iconfont icon-pinglun"></i>7</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="clearfix">
+          <img src="./images/diantai_05.jpg" alt="" />
+          <h5>乍见之欢 久处不厌<span>横滑可以切换上下首哦</span></h5>
+          <span class="bottom-right"
+            ><span class="fa fa-play-circle-o"></span
+            ><span class="fa fa-list-ul"></span
+          ></span>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/zepto.js"></script>
+    <script src="./js/touch.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+        // direction: 'vertical', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+          el: '.swiper-pagination'
+        }
+
+        // 如果需要前进后退按钮
+        // navigation: {
+        //   nextEl: '.swiper-button-next',
+        //   prevEl: '.swiper-button-prev',
+        // },
+
+        // 如果需要滚动条
+        // scrollbar: {
+        //   el: '.swiper-scrollbar',
+        // },
+      })
+    </script>
+  </body>
+</html>

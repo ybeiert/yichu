@@ -1,0 +1,188 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  padding: 0.72rem 0 0 0.24rem;
+  background-color: blue;
+  background: linear-gradient(#0dceda, #23f6e1);
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0px 0px 8px 4px #eee;
+  flex-shrink: 0;
+}
+.top > .title {
+  width: 7.02rem;
+  font-size: 0.36rem;
+  color: #fff;
+  margin-bottom: 0.58rem;
+}
+.top > .title > span {
+  display: block;
+  float: left;
+}
+.top > .title > .me {
+  margin-left: 2.14rem;
+}
+.top > .title > .options {
+  float: right;
+}
+.top > .person {
+  padding-left: 0.36rem;
+  margin-bottom: 0.3rem;
+}
+.top > .person > a {
+  display: block;
+}
+.top > .person > a > img {
+  width: 1.24rem;
+  border: 0.05rem solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: block;
+  float: left;
+  margin-right: 0.16rem;
+}
+.top > .person > p {
+  color: #fff;
+  font-size: 0.32rem;
+  float: left;
+  line-height: 0.5rem;
+  margin-top: 0.14rem;
+}
+.top > .person > p > span {
+  display: block;
+  color: #007a6d;
+  font-size: 0.3rem;
+}
+.top > .person > .zan {
+  float: right;
+  width: 1.12rem;
+  /* padding: 0.03rem; */
+  border: 1px solid #09b4b5;
+  border-right: 0;
+  border-radius: 26rem 0 0 26rem;
+}
+.top > .person > .zan > a {
+  display: block;
+  line-height: 0.55rem;
+  font-size: 0.18rem;
+  text-align: center;
+  border-radius: 25rem 0 0 25rem;
+  background-color: #09b4b5;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0.03rem 0 0.03rem 0.03rem;
+}
+.top > .follow {
+  padding-left: 0.64rem;
+  padding-bottom: 0.36rem;
+}
+.top > .follow > a {
+  display: block;
+  float: left;
+  font-size: 0.3rem;
+  text-align: center;
+  color: #03a181;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.top > .follow > a:last-child {
+  margin-right: 0;
+}
+.top > .follow > a > span {
+  display: block;
+  font-size: 0.18rem;
+  font-weight: normal;
+}
+section {
+  flex-grow: 1;
+  background-color: #fff;
+  overflow: auto;
+}
+.mid {
+  width: 6.9rem;
+  padding: 0 0.3rem;
+  margin-top: 0.18rem;
+}
+.mid > h3 {
+  line-height: 0.82rem;
+  font-size: 0.28rem;
+  color: #404040;
+}
+.mid > h3 > span {
+  display: block;
+  float: right;
+  color: #929292;
+}
+.mid > .pic {
+  margin-bottom: 0.1rem;
+}
+.mid > .pic > .pic-a {
+  margin-right: -0.4rem;
+}
+.mid > .pic > .pic-a > a {
+  display: block;
+  width: 2.03rem;
+  float: left;
+  margin-right: 0.4rem;
+  color: #606060;
+  font-size: 0.3rem;
+  line-height: 0.54rem;
+}
+.mid > .pic > .pic-a > a > img {
+  display: block;
+  width: 100%;
+}
+.mid-mid {
+  margin-bottom: 0.44rem;
+  background-color: #fdfdfd;
+}
+/* .mid-mid > .line {
+  
+} */
+.mid-mid > .collection {
+  margin-top: 0.25rem;
+}
+.mid-mid > .collection > ul > li {
+  line-height: 0.68rem;
+  margin-left: 0.32rem;
+  padding: 0.24rem 0;
+}
+.mid-mid > .collection > ul > li img {
+  display: block;
+  margin-right: 0.24rem;
+  float: left;
+  width: 0.43rem;
+}
+.mid-mid > .collection > ul > li h5 {
+  font-size: 0.3rem;
+  float: left;
+  line-height: 0.43rem;
+  margin-right: 0.22rem;
+  color: #292929;
+}
+.mid-mid > .collection > ul > li p {
+  font-size: 0.24rem;
+  line-height: 0.43rem;
+  float: left;
+  color: #919191;
+}
+.mid-mid > .collection > ul > li span {
+  float: right;
+  font-size: 0.24rem;
+  line-height: 0.43rem;
+  color: #222121;
+  margin-right: 0.32rem;
+}
+.mid-mid > .collection > ul > li span > i {
+  color: #919191;
+  padding-left: 0.32rem;
+}
+.li-line {
+  border-bottom: 1px solid #e5e5e5;
+}

@@ -1,0 +1,42 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header > div > span.mine {
+  margin-left: -3.5rem;
+}
+header > div > span.iconfont {
+  color: #05ac89;
+  font-size: 0.28rem;
+}
+section {
+  flex-grow: 1;
+  overflow: auto;
+  background-color: #fdfdfd;
+  padding: 0.62rem 0.36rem 0 0.36rem;
+}
+section > .content > .pic {
+  margin-right: -0.64rem;
+}
+section > .content > .pic > div {
+  float: left;
+  margin-right: 0.64rem;
+}
+section > .content > .pic > div > img {
+  display: block;
+  width: 3.07rem;
+}
+section > .content > .pic > div > span {
+  display: block;
+  font-size: 0.3rem;
+  color: #606060;
+  line-height: 0.72rem;
+  margin-bottom: 0.2rem;
+}

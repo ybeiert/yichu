@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/chushihua.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+    <script>
+      // https://www.cnblogs.com/well-nice/p/5509589.html
+      // 动态修改 html 的 font-size 屏幕的宽度/奢极高的尺寸/100
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + 'px'
+      // 给行元素设置font-size 小于 1rem 时,会出现 bug,将行转化为块
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="search clearfix">
+        <input type="text" id="text" placeholder="搜索回答、文章、话题或用户" />
+        <a href="./shouye.html" class="in-button">取消</a>
+        <span class="iconfont icon-search sousuo"></span>
+      </div>
+      <div class="anniu clearfix">
+        <span class="an-left">内容</span>
+        <span class="an-right">用户</span>
+      </div>
+      <span><i class="iconfont icon-heart"></i>最近浏览</span>
+      <span><i class="iconfont icon-search"></i>浮世绘</span>
+    </div>
+  </body>
+</html>

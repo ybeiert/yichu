@@ -1,0 +1,42 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+}
+.swiper-slide {
+  position: relative;
+}
+.swiper-slide > img {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide .swiper-slide-go {
+  text-align: center;
+  font-size: 0.16rem;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  border-radius: 0.15rem;
+  color: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  width: 0.8rem;
+  line-height: 0.4rem;
+}
+.swiper-slide .swiper-slide-come {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  width: 2rem;
+  margin-left: -1rem;
+  font-size: 0.18rem;
+  text-align: center;
+  line-height: 0.6rem;
+  color: rgba(255, 255, 255, 0.4);
+  background: rgba(122, 212, 177, 0.8);
+  border-radius: 0.3rem;
+}

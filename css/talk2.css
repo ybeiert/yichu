@@ -1,0 +1,202 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+section {
+  flex-grow: 1;
+  overflow: auto;
+}
+.active {
+  background-color: #8fd1c3;
+}
+.hot2 {
+  display: none;
+}
+section > ul {
+  margin-bottom: 0.12rem;
+}
+section > ul li {
+  margin-bottom: 0.22rem;
+  padding: 0.2rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+section > ul li > div {
+  margin-bottom: 0.26rem;
+}
+section > ul li > div > img {
+  display: block;
+  width: 0.9rem;
+  margin-right: 0.25rem;
+  float: left;
+}
+section > ul li > div > h5 {
+  float: left;
+  font-size: 0.34rem;
+  color: #626262;
+  line-height: 0.44rem;
+  margin-top: 0.05rem;
+  width: 4.7rem;
+  overflow: hidden;
+}
+section > ul li > div > h5 > span {
+  font-size: 0.24rem;
+  color: #918f8f;
+  display: block;
+}
+section > ul li > div > span.right {
+  margin-top: 0.26rem;
+  float: right;
+  display: block;
+  width: 0.65rem;
+  color: #adadad;
+  text-align: center;
+  font-size: 0.2rem;
+  line-height: 0.38rem;
+  border: 1px solid #8fd1c3;
+  border-radius: 0.19rem;
+}
+section > ul li > p {
+  font-size: 0.3rem;
+  color: #918f8f;
+  line-height: 0.44rem;
+  margin-bottom: 0.28rem;
+}
+section > ul li > .more {
+  display: block;
+  font-size: 0.22rem;
+  color: #323232;
+}
+section .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.04rem;
+  background-color: #fff;
+  position: relative;
+}
+section .title > span {
+  color: #b0afaf;
+  font-size: 0.3rem;
+  line-height: 0.76rem;
+}
+section .title > span > .line {
+  display: block;
+  width: 0.6rem;
+  height: 0.04rem;
+  background-color: #04a885;
+  position: absolute;
+  bottom: 0rem;
+}
+section .title > span > .none {
+  display: none;
+}
+section .title > span.answer {
+  margin-left: 2.54rem;
+}
+section .title > span.hot {
+  margin-right: 2.54rem;
+}
+section .ping > li {
+  padding: 0.48rem 0.3rem 0.24rem 0.3rem;
+  margin-top: 0.18rem;
+  background-color: #fff;
+}
+section .ping > li > div > img {
+  display: block;
+  width: 0.42rem;
+  float: left;
+  margin-right: 0.14rem;
+  margin-bottom: 0.36rem;
+}
+section .ping > li > div > span {
+  display: block;
+  float: left;
+  font-size: 0.28rem;
+  color: #838282;
+  line-height: 0.42rem;
+}
+section .ping > li > div > span.iconfont {
+  float: right;
+}
+section .ping > li > div > span.iconfont > img {
+  display: block;
+  width: 0.5rem;
+}
+section .ping > li > h5 {
+  font-size: 0.32rem;
+  color: #323232;
+  line-height: 0.58rem;
+  font-weight: 700;
+}
+section .ping > li > p {
+  font-size: 0.28rem;
+  color: #6d6b6b;
+  line-height: 0.44rem;
+  margin-bottom: 0.3rem;
+}
+section .ping > li > div > div > span {
+  display: block;
+  float: left;
+  font-size: 0.2rem;
+  color: #828282;
+}
+section .ping > li > div > .mid-left {
+  float: left;
+}
+section .ping > li > div > .mid-left > .riqi {
+  margin-right: 0.06rem;
+}
+section .ping > li > div > .mid-right {
+  float: right;
+}
+section .ping > li > div > .mid-right > span {
+  margin-left: 0.3rem;
+}
+section .ping > li > div > .mid-right > span > i.iconfont {
+  font-size: 0.2rem;
+  margin-right: 0.06rem;
+}
+footer {
+  background-color: #fafafa;
+  flex-flow: 0;
+}
+footer > span.iconfont {
+  line-height: 0.98rem;
+  display: block;
+  float: left;
+  width: 0.74rem;
+  font-size: 0.34rem;
+  text-align: center;
+}
+footer > input {
+  line-height: 0.98rem;
+  /* height: 0.98rem; */
+  display: block;
+  float: left;
+  border: none;
+  outline: none;
+  width: 5.64rem;
+  background-color: #fafafa;
+}
+footer > input::placeholder {
+  color: #c3c5c5;
+  font-size: 0.34rem;
+  line-height: 0.98rem;
+}
+footer > label {
+  line-height: 0.98rem;
+  font-size: 0.34rem;
+  color: #009c7a;
+  display: block;
+  float: right;
+  width: 1.12rem;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 7.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex-grow: 1;
+  overflow: auto;
+  background-color: #fdfdfd;
+}
+section > ul > li {
+  padding: 0.12rem 0.3rem 0 0.3rem;
+  margin-bottom: 0.12rem;
+  background-color: #fff;
+}
+section > ul > li > h5 {
+  color: #323232;
+  font-size: 0.32rem;
+  line-height: 0.56rem;
+}
+section > ul > li > h5 > span {
+  color: #05ac89;
+  font-size: 0.18rem;
+  padding-left: 0.15rem;
+}
+section > ul > li > p {
+  font-size: 0.26rem;
+  color: #5c5c5c;
+  line-height: 0.4rem;
+  height: 2rem;
+  overflow: hidden;
+}
+section > ul > li > div > span {
+  font-size: 0.2rem;
+  color: #828282;
+  line-height: 0.44rem;
+}
+section > ul > li > div > span.left {
+  float: left;
+}
+section > ul > li > div > span.date {
+  float: right;
+}

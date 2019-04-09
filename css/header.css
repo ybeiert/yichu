@@ -1,0 +1,25 @@
+header {
+  flex-shrink: 0;
+  padding-top: 1.32rem;
+  background: linear-gradient(#1e9093, #36f0be);
+  padding: 0.24rem 0.3rem 0 0.3rem;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+}
+header > div > span {
+  color: #009c7a;
+  font-size: 0.3rem;
+  line-height: 1rem;
+}
+header > div > a.fa {
+  font-size: 0.26rem;
+  line-height: 1rem;
+  color: #009c7a;
+}
+header > div > span.iconfont {
+  color: #fff;
+  font-size: 0.3rem;
+  line-height: 1rem;
+}
