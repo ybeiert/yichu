@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+  width: 100%;
+  height: 1.28rem;
+  background: linear-gradient(#209899, #36f0bf);
+  flex-shrink: 0;
+  box-shadow: 0px -10px 20px 4px #000;
+}
+header > .h-left {
+  width: 2.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+header > .h-right {
+  width: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+header a,
+header span {
+  display: block;
+  font-size: 0.3rem;
+  color: #009c7a;
+  margin-top: 0.65rem;
+}
+header > .h-right > span:first-child {
+  font-weight: bold;
+  padding-bottom: 0.05rem;
+  border-bottom: 1px solid #009c7a;
+  height: 0.4rem;
+}
+section {
+  overflow: auto;
+  flex-grow: 1;
+}
+section > .s-content {
+  background-color: #f5f5f5;
+  padding: 0.3rem 0.21rem 0.25rem 0.07rem;
+}
+section > .s-content > .s-top {
+  width: 2.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+section > .s-content > .s-top > img {
+  width: 0.73rem;
+  height: 0.73rem;
+}
+section > .s-content > .s-top > .s-top-text > span:first-child {
+  display: block;
+  font-size: 0.2rem;
+  color: #202020;
+  margin-top: 0.1rem;
+  margin-bottom: 0.16rem;
+}
+section > .s-content > .s-top > .s-top-text > span:last-child {
+  font-size: 0.14rem;
+  display: block;
+  color: #b2b2b2;
+}
+section > .s-content > .s-mid {
+  width: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.72rem;
+  margin-top: 0.3rem;
+}
+section > .s-content > .s-mid > .s-mid-text {
+  width: 3.7rem;
+  background-color: #fff;
+  border-radius: 0.3rem 0 0 0.3rem;
+  padding-left: 0.35rem;
+}
+section > .s-content > .s-mid > .s-mid-text > h3 {
+  margin-top: 1.07rem;
+  font-size: 0.28rem;
+  color: #202020;
+  margin-bottom: 0.25rem;
+}
+section > .s-content > .s-mid > .s-mid-text > span {
+  display: block;
+  font-size: 0.2rem;
+  color: #6b6b6b;
+}
+section > .s-content > .s-mid > img {
+  border-radius: 0 0.3rem 0.3rem 0;
+  width: 3.1rem;
+  height: 2.9rem;
+}
+section > .s-content > .s-bottom > .zan {
+  font-size: 0.16rem;
+  color: #b2b2b2;
+  margin-left: 0.8rem;
+  margin-top: 0.1rem;
+}
+section > .s-content > .s-bottom > .zan i {
+  margin-right: 0.3rem;
+}
+section > .s-content > .s-bottom > .zan i:last-child {
+  margin-right: 0;
+}

@@ -37,16 +37,27 @@
           <span>0.00</span>
           <span class="money">元</span>
         </div>
-        <a href="" class="recharge"
+        <a href="javascript:void(0)" class="recharge"
           ><i class="fa fa-jpy" aria-hidden="true"></i>充值</a
         >
-        <a href="" class="cash"
+        <a href="javascript:void(0)" class="cash"
           ><i class="fa fa-jpy" aria-hidden="true"></i>提现</a
         >
         <p>
           零钱可以用于用户用户间收听回答购买实体商品。
           <span>在使用过程层中，一处不会收取任何费用</span>
         </p>
+        <div class="jine">
+          <div class="jine-top">
+            请输入你要充值的金额（元）
+          </div>
+          <div class="jine-mid">
+            <input type="text" placeholder="50" />
+          </div>
+          <div class="jine-bottom">
+            <a href="">确定</a>
+          </div>
+        </div>
       </section>
       <footer>
         <p>
@@ -56,5 +67,12 @@
         <p>本服务由财付通提供底层技术支持</p>
       </footer>
     </div>
+    <script src="./js/zepto.js"></script>
+    <script src="./js/touch.js"></script>
+    <script>
+      $('section .recharge').tap(function() {
+        $('section>.jine').css('display', 'block')
+      })
+    </script>
   </body>
 </html>

@@ -14,6 +14,7 @@ section {
   padding-top: 1.32rem;
   flex-grow: 1;
   overflow: auto;
+  position: relative;
 }
 section > img {
   display: block;
@@ -66,6 +67,51 @@ section > p {
 }
 section > p > span {
   display: block;
+}
+section .jine {
+  display: none;
+  width: 6.1rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -3.05rem;
+  margin-top: -1.95rem;
+  padding-bottom: 0.3rem;
+}
+section > .jine > .jine-top {
+  line-height: 1.15rem;
+  background-color: #35efcc;
+  font-size: 0.28rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+section > .jine > .jine-mid,
+section > .jine > .jine-bottom {
+  width: 100%;
+  text-align: center;
+}
+section > .jine > .jine-mid > input {
+  outline: none;
+  border: 0;
+  width: 100%;
+  line-height: 0.6rem;
+  font-size: 0.42rem;
+  text-align: center;
+  color: #35efcc;
+  margin-bottom: 0.9rem;
+}
+section > .jine > .jine-mid > input::placeholder {
+  color: #35efcc;
+}
+section > .jine > .jine-bottom > a {
+  display: block;
+  width: 0.7rem;
+  font-size: 0.26rem;
+  color: #35efcc;
+  margin: 0 auto;
 }
 footer {
   background-color: #f5f5f5;

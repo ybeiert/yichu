@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+  width: 100%;
+  height: 1.28rem;
+  background: linear-gradient(#209899, #36f0bf);
+  flex-shrink: 0;
+  box-shadow: 0px -10px 20px 4px #000;
+}
+header a,
+header span {
+  display: block;
+  font-size: 0.3rem;
+  color: #009c7a;
+  margin-top: 0.65rem;
+}
+header span {
+  font-size: 0.36rem;
+}
+header a:last-child {
+  color: #fff;
+}
+section {
+  width: 100%;
+  overflow: auto;
+  flex-grow: 1;
+}
+section .s-one,
+section .s-two,
+section .s-three {
+  /* overflow: hidden; */
+  padding: 0 0.3rem;
+}
+section .s-1 {
+  margin-top: 0.34rem;
+  margin-bottom: 0.35rem;
+  display: flex;
+  justify-content: space-between;
+}
+section .s-1 span {
+  display: block;
+  font-size: 0.2rem;
+  line-height: 0.32rem;
+  color: #059979;
+  border-left: 1px solid #059979;
+  padding-left: 0.1rem;
+}
+section .s-1 a {
+  display: block;
+}
+section .s-1 a span {
+  border: 0;
+}
+section .s-2 {
+  width: 100%;
+  overflow: scroll;
+}
+section .s-2 .s-2-box {
+  width: 8.82rem;
+}
+section .s-2 .s-2-box .s-2-pic {
+  float: left;
+  margin-right: 0.2rem;
+  width: 2.74rem;
+}
+section .s-three .s-2 .s-2-box .s-2-pic {
+  width: 3.38rem;
+}
+section .s-2 .s-2-box .s-2-pic img {
+  width: 100%;
+}
+section .xian {
+  width: 100%;
+  height: 0.18rem;
+  background-color: #f8f8f8;
+  margin-top: 0.2rem;
+}
+section .s-2 .s-2-box .s-2-pic span:nth-child(2) {
+  display: block;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #202020;
+  margin-bottom: 0.21rem;
+}
+section .s-2 .s-2-box .s-2-pic span:nth-child(3) {
+  display: block;
+  text-align: center;
+  font-size: 0.16rem;
+  color: #6b6b6b;
+}
+footer {
+  width: 100%;
+  background-color: #fff;
+  flex-shrink: 0;
+  box-shadow: 5px 10px 20px 0px #000;
+}
+footer .footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-content a {
+  display: block;
+}
+footer .footer-content a img {
+  width: 0.38rem;
+  height: 0.65rem;
+}
+footer .footer-content a:nth-child(3) img {
+  width: 0.7rem;
+  height: 0.69rem;
+}
+footer .footer-content a:first-child {
+  margin-left: 0.55rem;
+}
+footer .footer-content a:last-child {
+  margin-right: 0.55rem;
+}
